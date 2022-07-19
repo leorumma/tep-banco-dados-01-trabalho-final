@@ -1,0 +1,9 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "tbd0tf": "npmd:tep-banco-dados-01-trabalho-final/^1.0.0/"
+    }
+  ]
+}

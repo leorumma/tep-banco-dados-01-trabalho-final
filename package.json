@@ -1,0 +1,31 @@
+{
+  "name": "tep-banco-dados-01-trabalho-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/lib/index.js",
+  "typings": "src/lib",
+  "lsd:module": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:ts && npm run build:components",
+    "build:ts": "tsc",
+    "build:components": "componentsjs-generator",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "components",
+    "lib/**/*.d.ts",
+    "lib/**/*.js"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "componentsjs-generator": "^3.0.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "componentsjs": "^5.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "source": "src/lib",
+    "destination": "src/components",
+    "extension": "jsonld",
+    "logLevel": "info",
+    "ignorePackagePaths": [],
+    "ignoreComponents": [],
+    "modulePrefix": {}
+  }
