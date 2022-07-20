@@ -1,9 +1,0 @@
-{
-  "@context": [
-    "https://linkedsoftwaredependencies.org/bundles/npm/tep-banco-dados-01-trabalho-final/^1.0.0/components/context.jsonld"
-  ],
-  "@id": "npmd:tep-banco-dados-01-trabalho-final",
-  "@type": "Module",
-  "requireName": "tep-banco-dados-01-trabalho-final",
-  "import": []
-}

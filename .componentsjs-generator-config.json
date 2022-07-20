@@ -1,6 +1,6 @@
 {
-    "source": "src/lib",
-    "destination": "src/components",
+    "source": "lib",
+    "destination": "components",
     "extension": "jsonld",
     "logLevel": "info",
     "ignorePackagePaths": [],

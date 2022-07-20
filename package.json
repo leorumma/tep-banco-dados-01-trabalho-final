@@ -2,9 +2,16 @@
   "name": "tep-banco-dados-01-trabalho-final",
   "version": "1.0.0",
   "description": "",
-  "main": "src/lib/index.js",
-  "typings": "src/lib",
-  "lsd:module": true,
+  "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/documentation-components",
+  "lsd:components": "components/components.jsonld",
+  "lsd:contexts": {
+    "https://linkedsoftwaredependencies.org/bundles/npm/documentation-components/^1.0.0/components/context.jsonld": "components/context.jsonld"
+  },
+  "lsd:importPaths": {
+    "https://linkedsoftwaredependencies.org/bundles/npm/documentation-components/^1.0.0/components/": "lib/"
+  },
+  "main": "index.js",
+  "typings": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:ts && npm run build:components",

@@ -1,0 +1,49 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/documentation-components/^1.0.0/components/context.jsonld"
+  ],
+  "@id": "npmd:documentation-components",
+  "components": [
+    {
+      "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass",
+      "@type": "Class",
+      "requireElement": "MyClass",
+      "comment": "This is a great class!",
+      "parameters": [
+        {
+          "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramA",
+          "range": "xsd:boolean",
+          "comment": "My parameter"
+        },
+        {
+          "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramB",
+          "range": "xsd:number"
+        },
+        {
+          "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramC",
+          "range": {
+            "@type": "ParameterRangeArray",
+            "parameterRangeValue": "xsd:string"
+          }
+        }
+      ],
+      "memberFields": [
+        {
+          "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass__member_constructor",
+          "memberFieldName": "constructor"
+        }
+      ],
+      "constructorArguments": [
+        {
+          "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramA"
+        },
+        {
+          "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramB"
+        },
+        {
+          "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramC"
+        }
+      ]
+    }
+  ]
+}
