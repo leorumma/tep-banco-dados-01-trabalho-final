@@ -1,11 +1,13 @@
 {
   "@context": [
-    "https://linkedsoftwaredependencies.org/bundles/npm/documentation-components/^1.0.0/components/context.jsonld"
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld"
   ],
-  "@id": "npmd:documentation-components",
+  "@id": "http://example.com/components",
   "@type": "Module",
   "requireName": "tep-banco-dados-01-trabalho-final",
   "import": [
-    "npmd:documentation-components/^1.0.0/components/MyActor.jsonld"
+    "npmd:componentsjs/^5.0.0/components/Pessoa.jsonld",
+    "npmd:componentsjs/^5.0.0/components/Estudante.jsonld",
+    "npmd:componentsjs/^5.0.0/components/Professor.jsonld"
   ]
 }

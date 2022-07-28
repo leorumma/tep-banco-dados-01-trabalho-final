@@ -4,19 +4,57 @@
     {
       "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
       "tbd0tf": "npmd:tep-banco-dados-01-trabalho-final/^1.0.0/",
-      "MyClass": {
-        "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass",
+      "Pessoa": {
+        "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa",
         "@prefix": true,
         "@context": {
-          "paramA": {
-            "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramA"
+          "nome": {
+            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_nome"
           },
-          "paramB": {
-            "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramB"
+          "idade": {
+            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_idade"
           },
-          "paramC": {
-            "@id": "npmd:documentation-components/^1.0.0/lib/MyActor.jsonld#MyClass_paramC",
-            "@container": "@list"
+          "aniversario": {
+            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_aniversario"
+          },
+          "identificador": {
+            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_identificador"
+          }
+        }
+      },
+      "Estudante": {
+        "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante",
+        "@prefix": true,
+        "@context": {
+          "nome": {
+            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_nome"
+          },
+          "idade": {
+            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_idade"
+          },
+          "aniversario": {
+            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_aniversario"
+          },
+          "identificador": {
+            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_identificador"
+          }
+        }
+      },
+      "Professor": {
+        "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor",
+        "@prefix": true,
+        "@context": {
+          "nome": {
+            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_nome"
+          },
+          "idade": {
+            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_idade"
+          },
+          "aniversario": {
+            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_aniversario"
+          },
+          "identificador": {
+            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_identificador"
           }
         }
       }
