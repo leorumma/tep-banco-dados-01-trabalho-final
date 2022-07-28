@@ -1,0 +1,67 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld"
+  ],
+  "@id": "http://example.com/components",
+  "components": [
+    {
+      "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa",
+      "@type": "Class",
+      "requireElement": "Pessoa",
+      "parameters": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_nome",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_idade",
+          "range": "xsd:number"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_aniversario",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_identificador",
+          "range": "xsd:string"
+        }
+      ],
+      "memberFields": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_constructor",
+          "memberFieldName": "constructor"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_nome",
+          "memberFieldName": "nome"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_aniversario",
+          "memberFieldName": "aniversario"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_identificador",
+          "memberFieldName": "identificador"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_idade",
+          "memberFieldName": "idade"
+        }
+      ],
+      "constructorArguments": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_nome"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_idade"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_aniversario"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_identificador"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld"
+  ],
+  "@id": "http://example.com/components",
+  "components": [
+    {
+      "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante",
+      "@type": "Class",
+      "requireElement": "Estudante",
+      "extends": [
+        "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa"
+      ],
+      "parameters": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_nome",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_idade",
+          "range": "xsd:number"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_aniversario",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_identificador",
+          "range": "xsd:string"
+        }
+      ],
+      "memberFields": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante__member_constructor",
+          "memberFieldName": "constructor"
+        }
+      ],
+      "constructorArguments": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_nome"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_idade"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_aniversario"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_identificador"
+        }
+      ]
+    }
+  ]
+}
