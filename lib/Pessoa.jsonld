@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld"
+  ],
+  "@id": "http://example.com/components",
+  "components": [
+    {
+      "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa",
+      "@type": "AbstractClass",
+      "requireElement": "Pessoa",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_nome",
+          "memberFieldName": "nome"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_identificador",
+          "memberFieldName": "identificador"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_aniversario",
+          "memberFieldName": "aniversario"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa__member_idade",
+          "memberFieldName": "idade"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}
