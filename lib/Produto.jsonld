@@ -1,0 +1,25 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld"
+  ],
+  "@id": "http://example.com/components",
+  "components": [
+    {
+      "@id": "http://example.com/components/^1.0.0/lib/Produto.jsonld#Produto",
+      "@type": "AbstractClass",
+      "requireElement": "Produto",
+      "parameters": [],
+      "memberFields": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Produto.jsonld#Produto__member_valor",
+          "memberFieldName": "valor"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Produto.jsonld#Produto__member_nome",
+          "memberFieldName": "nome"
+        }
+      ],
+      "constructorArguments": []
+    }
+  ]
+}

@@ -7,54 +7,136 @@
       "Pessoa": {
         "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa",
         "@prefix": true,
-        "@context": {
-          "nome": {
-            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_nome"
-          },
-          "idade": {
-            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_idade"
-          },
-          "aniversario": {
-            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_aniversario"
-          },
-          "identificador": {
-            "@id": "http://example.com/components/^1.0.0/lib/Pessoa.jsonld#Pessoa_identificador"
-          }
-        }
+        "@context": {}
       },
-      "Estudante": {
-        "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante",
+      "Autor": {
+        "@id": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor",
         "@prefix": true,
         "@context": {
           "nome": {
-            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_nome"
-          },
-          "idade": {
-            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_idade"
-          },
-          "aniversario": {
-            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_aniversario"
+            "@id": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor_nome"
           },
           "identificador": {
-            "@id": "http://example.com/components/^1.0.0/lib/Estudante.jsonld#Estudante_identificador"
+            "@id": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor_identificador"
+          },
+          "email": {
+            "@id": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor_email"
+          },
+          "idade": {
+            "@id": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor_idade"
+          },
+          "aniversario": {
+            "@id": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor_aniversario"
+          },
+          "r": {
+            "@id": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor_identificador"
           }
         }
       },
-      "Professor": {
-        "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor",
+      "Produto": {
+        "@id": "http://example.com/components/^1.0.0/lib/Produto.jsonld#Produto",
+        "@prefix": true,
+        "@context": {}
+      },
+      "Livro": {
+        "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro",
         "@prefix": true,
         "@context": {
           "nome": {
-            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_nome"
+            "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro_nome"
           },
-          "idade": {
-            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_idade"
+          "valor": {
+            "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro_valor"
+          }
+        }
+      },
+      "LivroFisico": {
+        "@id": "http://example.com/components/^1.0.0/lib/LivroFisico.jsonld#LivroFisico",
+        "@prefix": true,
+        "@context": {
+          "nome": {
+            "@id": "http://example.com/components/^1.0.0/lib/LivroFisico.jsonld#LivroFisico_nome"
           },
-          "aniversario": {
-            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_aniversario"
+          "valor": {
+            "@id": "http://example.com/components/^1.0.0/lib/LivroFisico.jsonld#LivroFisico_valor"
           },
-          "identificador": {
-            "@id": "http://example.com/components/^1.0.0/lib/Professor.jsonld#Professor_identificador"
+          "descricao": {
+            "@id": "http://example.com/components/^1.0.0/lib/LivroFisico.jsonld#LivroFisico_descricao"
+          },
+          "isbn": {
+            "@id": "http://example.com/components/^1.0.0/lib/LivroFisico.jsonld#LivroFisico_isbn"
+          },
+          "autor": {
+            "@id": "http://example.com/components/^1.0.0/lib/LivroFisico.jsonld#LivroFisico_autor"
+          },
+          "cao": {
+            "@id": "http://example.com/components/^1.0.0/lib/LivroFisico.jsonld#LivroFisico_descricao"
+          }
+        }
+      },
+      "MiniLivro": {
+        "@id": "http://example.com/components/^1.0.0/lib/MiniLivro.jsonld#MiniLivro",
+        "@prefix": true,
+        "@context": {
+          "nome": {
+            "@id": "http://example.com/components/^1.0.0/lib/MiniLivro.jsonld#MiniLivro_nome"
+          },
+          "valor": {
+            "@id": "http://example.com/components/^1.0.0/lib/MiniLivro.jsonld#MiniLivro_valor"
+          },
+          "descricao": {
+            "@id": "http://example.com/components/^1.0.0/lib/MiniLivro.jsonld#MiniLivro_descricao"
+          },
+          "isbn": {
+            "@id": "http://example.com/components/^1.0.0/lib/MiniLivro.jsonld#MiniLivro_isbn"
+          },
+          "autor": {
+            "@id": "http://example.com/components/^1.0.0/lib/MiniLivro.jsonld#MiniLivro_autor"
+          },
+          "cao": {
+            "@id": "http://example.com/components/^1.0.0/lib/MiniLivro.jsonld#MiniLivro_descricao"
+          }
+        }
+      },
+      "Ebook": {
+        "@id": "http://example.com/components/^1.0.0/lib/Ebook.jsonld#Ebook",
+        "@prefix": true,
+        "@context": {
+          "nome": {
+            "@id": "http://example.com/components/^1.0.0/lib/Ebook.jsonld#Ebook_nome"
+          },
+          "valor": {
+            "@id": "http://example.com/components/^1.0.0/lib/Ebook.jsonld#Ebook_valor"
+          },
+          "assinaturaDigital": {
+            "@id": "http://example.com/components/^1.0.0/lib/Ebook.jsonld#Ebook_assinaturaDigital"
+          },
+          "descricao": {
+            "@id": "http://example.com/components/^1.0.0/lib/Ebook.jsonld#Ebook_descricao"
+          },
+          "isbn": {
+            "@id": "http://example.com/components/^1.0.0/lib/Ebook.jsonld#Ebook_isbn"
+          },
+          "autor": {
+            "@id": "http://example.com/components/^1.0.0/lib/Ebook.jsonld#Ebook_autor"
+          }
+        }
+      },
+      "Revista": {
+        "@id": "http://example.com/components/^1.0.0/lib/Revista.jsonld#Revista",
+        "@prefix": true,
+        "@context": {
+          "nome": {
+            "@id": "http://example.com/components/^1.0.0/lib/Revista.jsonld#Revista_nome"
+          },
+          "valor": {
+            "@id": "http://example.com/components/^1.0.0/lib/Revista.jsonld#Revista_valor"
+          },
+          "editora": {
+            "@id": "http://example.com/components/^1.0.0/lib/Revista.jsonld#Revista_editora"
+          },
+          "descricao": {
+            "@id": "http://example.com/components/^1.0.0/lib/Revista.jsonld#Revista_descricao"
           }
         }
       }

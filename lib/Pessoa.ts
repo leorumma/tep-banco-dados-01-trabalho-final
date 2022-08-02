@@ -1,18 +1,11 @@
-export class Pessoa {
+export interface Pessoa {
 
-    constructor(nome: String, idade: Number, aniversario: String, identificador: String) {
-        this.nome = nome;
-        this.aniversario = aniversario;
-        this.identificador = identificador;
-        this.idade = idade;
-    }
+    nome: string;
 
-    private readonly nome: String;
+    identificador: string;
 
-    private aniversario: String;
+    aniversario?: string;
 
-    private identificador: String;
-
-    private idade: Number;
+    idade?: number;
 
 }

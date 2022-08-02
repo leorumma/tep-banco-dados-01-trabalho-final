@@ -1,0 +1,71 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^5.0.0/components/context.jsonld"
+  ],
+  "@id": "http://example.com/components",
+  "components": [
+    {
+      "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro",
+      "@type": "AbstractClass",
+      "requireElement": "Livro",
+      "extends": [
+        "http://example.com/components/^1.0.0/lib/Produto.jsonld#Produto"
+      ],
+      "parameters": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro_nome",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro_valor",
+          "range": "xsd:number"
+        }
+      ],
+      "memberFields": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro__member_nome",
+          "memberFieldName": "nome",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro__member_valor",
+          "memberFieldName": "valor",
+          "range": "xsd:number"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro__member_descricao",
+          "memberFieldName": "descricao",
+          "range": "xsd:string"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro__member_isbn",
+          "memberFieldName": "isbn",
+          "range": {
+            "@type": "ParameterRangeUnion",
+            "parameterRangeElements": [
+              "xsd:string",
+              "xsd:number"
+            ]
+          }
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro__member_autor",
+          "memberFieldName": "autor",
+          "range": "http://example.com/components/^1.0.0/lib/Autor.jsonld#Autor"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro__member_constructor",
+          "memberFieldName": "constructor"
+        }
+      ],
+      "constructorArguments": [
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro_nome"
+        },
+        {
+          "@id": "http://example.com/components/^1.0.0/lib/Livro.jsonld#Livro_valor"
+        }
+      ]
+    }
+  ]
+}

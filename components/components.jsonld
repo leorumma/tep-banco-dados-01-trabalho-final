@@ -7,7 +7,12 @@
   "requireName": "tep-banco-dados-01-trabalho-final",
   "import": [
     "npmd:componentsjs/^5.0.0/components/Pessoa.jsonld",
-    "npmd:componentsjs/^5.0.0/components/Estudante.jsonld",
-    "npmd:componentsjs/^5.0.0/components/Professor.jsonld"
+    "npmd:componentsjs/^5.0.0/components/Autor.jsonld",
+    "npmd:componentsjs/^5.0.0/components/Produto.jsonld",
+    "npmd:componentsjs/^5.0.0/components/Livro.jsonld",
+    "npmd:componentsjs/^5.0.0/components/LivroFisico.jsonld",
+    "npmd:componentsjs/^5.0.0/components/MiniLivro.jsonld",
+    "npmd:componentsjs/^5.0.0/components/Ebook.jsonld",
+    "npmd:componentsjs/^5.0.0/components/Revista.jsonld"
   ]
 }
